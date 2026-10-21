@@ -8,11 +8,39 @@
 header{
     display:flex;
     justify-content:space-between;
+    align-items:center;
     background-color:#202423;
     color:#fff;
     padding:20px 50px;
 }
 
+.menu-esquerda{
+    display:flex;
+}
+
+.menu-esquerda h1{
+    padding-right: 20px;
+    border-right: 1px solid #d1a081;
+}
+.menu-esquerda p{
+    padding-left: 20px;
+}
+
 .menu-direita ul{
     display:flex;
+}
+
+.menu-direita li{
+    list-style:none;
+    padding: 10px;
+}
+
+.menu-direita li:hover{
+    border-bottom: 2px solid #d1a081;
+}
+
+.menu-direita a{
+    padding: 20px;
+    color:#fff;
+    text-decoration:none;
 }
